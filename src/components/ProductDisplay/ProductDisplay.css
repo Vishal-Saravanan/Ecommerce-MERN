@@ -1,0 +1,131 @@
+.productdisplay {
+    display: flex;
+    margin: 0px 170px;
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img {
+    height: 150.5px;
+}
+
+.productdisplay-main-img {
+    width: 500px;
+    height: 650px;
+}
+
+.productdisplay-right {
+    margin-left: 20px; /* Adjusted margin for better spacing */
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 30px; /* Reduced font size */
+    font-weight: 700;
+    margin: 0; /* Removed margin for better alignment */
+}
+
+.productdisplay-right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    align-items: center; /* Align items center for vertical alignment */
+    gap: 20px; /* Adjusted gap */
+    font-weight: 700;
+    font-size: 20px; /* Reduced font size */
+    margin: 20px 0; /* Adjusted margin */
+}
+
+.productdisplay-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+    color: #ff4141;
+}
+
+.productdisplay-right-description {
+    margin: 20px 0; /* Added margin for spacing */
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.productdisplay-right-size h1 {
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    gap: 10px; /* Adjusted gap for better spacing */
+}
+
+.productdisplay-right-sizes div {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.productdisplay-right-sizes div:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #ff4141;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e03a3a;
+}
+
+.productdisplay-right-category {
+    margin: 10px 0; /* Added margin for spacing */
+    color: #656565;
+    font-size: 14px;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}
+
+.productdisplay-right-category{
+    margin-top: 10px;
+}
+
+.productdisplay-right-category span{
+    font-weight: bolder;
+    color: #1c1c1c;
+}
